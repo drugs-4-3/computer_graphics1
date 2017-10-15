@@ -28,8 +28,8 @@ public class Task7 {
                 int zj = j/a;
                 int cx = zj + a/2;
                 int cy = zi + a/2;
-                int d = (int) distance(cx, cy, ni, nj);
-                if ((d/w)%2 == 0) {
+                double d = distance(cx, cy, ni, nj);
+                if (((int)d/w)%2 == 0) {
                     image.setRGB(j, i, color1);
                 }
                 else {
