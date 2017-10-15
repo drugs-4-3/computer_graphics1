@@ -8,7 +8,7 @@ public class Task6 {
 
     public static void main(String[] args) {
 
-        System.out.println("Ring pattern synthesis");
+        System.out.println("Growing ring pattern synthesis");
 
         int x_res = Integer.parseInt(args[0].trim());
         int y_res = Integer.parseInt(args[1].trim());
